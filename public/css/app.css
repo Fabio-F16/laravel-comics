@@ -33,3 +33,82 @@ main p {
   text-transform: uppercase;
 }
 
+.top-footer {
+  background-color: #0c7cec;
+  padding: 40px;
+}
+
+.top-footer .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ff-card {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.ff-card img {
+  width: 50px;
+}
+
+.ff-card p {
+  margin-left: 15px;
+}
+
+.main-footer {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-position: cover;
+  padding: 30px 0px;
+}
+
+.main-footer h5 {
+  color: white;
+  margin: 10px 0px;
+}
+
+.main-footer div {
+  margin-right: 25px;
+}
+
+.main-footer ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+
+.main-footer li {
+  padding-left: 0px;
+  font-size: 0.8rem;
+  list-style-type: none;
+  color: grey;
+}
+
+.bottom-footer {
+  background-color: #2a2a2a;
+  padding: 30px 0px;
+}
+
+.bottom-footer .container button {
+  color: white;
+  padding: 10px;
+  background-color: #2a2a2a;
+  border: 2px solid #0c7cec;
+  cursor: pointer;
+}
+
+.bottom-footer .container .icons {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-footer .container .icons h5 {
+  color: #0c7cec;
+}
+
+.bottom-footer .container img {
+  margin-left: 10px;
+}
+
