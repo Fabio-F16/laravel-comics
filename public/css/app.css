@@ -1,4 +1,25 @@
-h1 {
-  color: red;
+header {
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+
+ul li:hover {
+  color: #0c7cec;
+  border-bottom: 2px solid #0c7cec;
+}
+
+.jumbotron {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-position: top;
+  height: 400px;
 }
 
