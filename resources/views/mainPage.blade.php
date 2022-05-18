@@ -7,7 +7,7 @@
 
 <!-- start content -->
 @section('content')
-<main>
+
   <div class="container">
     <div class="row justify-content-center">
       @foreach ($comics as $comic)
@@ -21,7 +21,7 @@
         @endforeach
     </div>
   </div>
-</main>
+
 
 @endsection
 <!-- end content -->
