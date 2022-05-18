@@ -13,7 +13,7 @@
       @foreach ($comics as $comic)
           <div class="col-12 col-md-2 m-3 text-center">
             
-            <img src="{{ $comic['thumb'] }}" alt="img">
+            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
             <p>{{ $comic['title'] }}</p>
 
           </div>
@@ -21,7 +21,6 @@
         @endforeach
     </div>
   </div>
-
 
 @endsection
 <!-- end content -->
